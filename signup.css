@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(/images\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+form{
+    background-color: lightcoral;
+    width: 500px;
+    height: 360px;
+    border-radius: 1pc;
+    margin: auto;
+    margin-top: 10%;
+    align-items: center;
+    padding: 1%;
+    opacity: 0.6;
+}

@@ -1,0 +1,176 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100vh;
+    background-image: url(/techviewphoto.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+      
+}
+
+nav{
+    width: auto;
+    height: 100px;
+    background-color: crimson;
+    padding: 2%;
+    width: 100%;
+    font-size: large;
+   
+    
+}
+li{
+    color:yellow;
+    font-weight: 300;
+    list-style: none;
+    float: right;
+    width: 10%;
+    height: 100%;
+    font-size: 20px;
+
+}
+.logo{
+    float: left;
+}
+.logo:hover{
+    transition-duration: 20s;
+    transform: translateY(810px);
+    animation-direction: alternate;
+    
+}
+
+
+h1{
+    padding-top: 3%;
+    font-size: 70px;
+    color: crimson;
+    
+   
+    
+}
+.parent{
+    padding-top: 2%;
+    background-color: wheat;
+    border: 2px solid red;
+    width: 700px;
+    width: 80vw;
+    height: 40vh;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    border-radius: 1pc;
+    transition-property: all;
+    transition-duration: 6s;
+    opacity: 0.6;
+          
+}
+.ptext{
+    color: bisque;
+}
+.child{
+    border-radius: 1pc;
+    width: 80%;
+    height: 10vh;
+    background-color: crimson;
+    position: absolute;
+    left: 0;
+    transition-property: all;  
+    transition-duration: 5s;
+    transition: all 5s ease-in-out; 
+    animation-name: dragonball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    
+}
+
+
+.parent:hover{
+    transform: rotate(360px);
+    background-color: black;
+}
+.child:hover{
+    transform: translateX(810px);
+    }
+.motto{
+    color: crimson;
+}
+
+@keyframes dragonball{
+    from{
+        background-color: darkred;
+        transform: translateX(0px);
+
+    }
+    20%{
+    background-color: red;
+    width: 80%;
+
+    }
+    50%{
+        background-color: blue;
+        width: 50%;
+    }
+    75%{
+        background-color: green;
+        transform: translate(700px);
+        
+    }
+    to{
+        background-color: yellow;
+        transform: translateX(810px);
+        
+
+    }
+
+}
+
+.h2text{
+    
+    width: 450px;
+    height: 150px;
+    border-radius: 1pc;
+    padding: 1%;
+    transition-property: all;
+    transition-duration: 6s;
+   
+
+}
+
+.h2text:hover{
+   
+    background-color: gold;
+    
+}
+.sectiontrust{
+    width: 450px;
+    height: 150px;
+    border-radius: 1pc;
+    padding: 1%;
+    transition-property: all;
+    transition-duration: 6s;
+}
+.sectiontrust:hover{
+    background-color: lightsteelblue;
+}
+
+footer{
+    border: 2px solid red;
+    width: auto;
+    height: 500px;
+    background-color: darkcyan ;
+    padding: 2%;
+
+}
+    
+    
+
+
+  
