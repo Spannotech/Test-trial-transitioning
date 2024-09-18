@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    
+}
+nav{
+    width: auto;
+    height: 100px;
+    background-color: crimson;
+    padding: 2%;
+    width: 100%;
+    font-size: large;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+    
+}
+body{
+    background-image: url(/images\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
